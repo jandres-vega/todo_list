@@ -1,0 +1,55 @@
+@import 'vars.dark';
+
+.container-count-todo {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--Very-Dark-Desaturated-Blue);
+  height: 40px;
+  align-items: center;
+  bottom: 0;
+}
+.container-count-todo-light {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--Very-Light-Gray);
+  height: 40px;
+  align-items: center;
+  bottom: 0;
+  padding-left: 5px;
+}
+.container-count-todo h5{
+  margin: 0 10px;
+  color: var(--Dark-Grayish-Blue);
+}
+.container-btn {
+  color: var(--Dark-Grayish-Blue);
+  cursor: pointer;
+}
+.active-span {
+  margin: 10px;
+}
+.disabled-span {
+  color: var(--Dark-Grayish-Blue);
+  pointer-events: none;
+}
+.active-span-trans {
+  color: var(--Light-Grayish-Blue-trans);
+}
+.clear-p {
+  margin: 0 10px  0 0;
+  color: var(--Dark-Grayish-Blue);
+  cursor: pointer;
+}
+.clear-p:hover {
+  color: var(--Light-Grayish-Blue-trans);
+}
+.active-all {
+  color: var(--Light-Grayish-Blue-trans);
+}
+.active-completed {
+  margin-right: 10px;
+}

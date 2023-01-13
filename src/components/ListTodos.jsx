@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ListTodos = () => {
+const ListTodos = ({children}) => {
     return (
-        <div>
-
-        </div>
+        <React.Fragment>
+            {children}
+        </React.Fragment>
     );
 };
 

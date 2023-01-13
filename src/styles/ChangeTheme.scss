@@ -1,0 +1,15 @@
+@import 'vars.dark';
+.container-theme {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-theme h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--Light-Grayish-Blue-trans);
+}
+.icon-sun {
+  font-size: 25px;
+  cursor: pointer;
+}

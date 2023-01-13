@@ -1,10 +1,13 @@
-import './styles/App.css';
+import React from "react";
+import './styles/global.scss';
+import {Provider} from "./context/context";
+import {AppUi} from "./containers/AppUi";
 
 const App = () => {
   return (
-    <div className="App">
-
-    </div>
+      <Provider>
+          <AppUi />
+      </Provider>
   );
 }
 
