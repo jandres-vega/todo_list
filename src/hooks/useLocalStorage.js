@@ -23,7 +23,7 @@ function useLocalStorage(itemName, initialValue) {
             }
         },3000);
 
-    },[])
+    },[initialValue, itemName])
 
 
     const saveItem = (newTodos) => {
