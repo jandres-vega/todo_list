@@ -9,7 +9,7 @@ import {TodoContext} from "../context/context";
 import imgLoading from '../assets/loading.gif';
 import imgIngresaTodo from '../assets/ingresa-todo.gif';
 const TodosItems = () => {
-    const {todosAll, loading, error} = React.useContext(TodoContext);
+    const {todosAll, loading} = React.useContext(TodoContext);
 
     return (
         <div className="container-todos">
