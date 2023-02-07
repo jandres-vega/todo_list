@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17869b3e-4def-4373-9223-b1cf6ac38672" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useLocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useLocalStorage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +33,10 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Andres-vega/Desktop/Nueva carpeta/todo_list&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu-20.04@/usr/local/bin/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -82,7 +83,8 @@
       <workItem from="1673616483296" duration="8701000" />
       <workItem from="1673627222863" duration="300000" />
       <workItem from="1675797937809" duration="680000" />
-      <workItem from="1675798623563" duration="639000" />
+      <workItem from="1675798623563" duration="1264000" />
+      <workItem from="1675799891970" duration="146000" />
     </task>
     <servers />
   </component>

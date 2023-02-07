@@ -10,8 +10,8 @@ function Provider({children}) {
 
     const localStorageItems = localStorage.getItem('TODOS_V1');
     let copyData = JSON.parse(localStorageItems);
-
-    const {item, saveItem, setItem, loading, error} = useLocalStorage('TODOS_V1', []);
+    const {item, saveItem, setItem, loading, error} = useLocalStorage('TODOS_V1');
+    // const {item, saveItem, setItem, loading, error} = useLocalStorage('TODOS_V1', []);
 
     const [inputSearch, setInputSearch] = useState('');
     const [openModal, setOpenModal] = React.useState(false);
