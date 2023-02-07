@@ -5,6 +5,7 @@ function useLocalStorage(itemName, initialValue) {
     const [item, setItem] = React.useState(initialValue);
 
     React.useEffect(() => {
+
         setTimeout(() => {
             try {
                 let parsedItem;
@@ -14,7 +15,7 @@ function useLocalStorage(itemName, initialValue) {
                     parsedItem = [];
                 }else {
                     parsedItem = JSON.parse(localStorageItems);
-                    // copyDataLocalStorage = JSON.parse(localStorageItems);
+                    //copyDataLocalStorage = JSON.parse(localStorageItems);
                 }
                 setItem(parsedItem);
                 setLoading(false);
@@ -23,7 +24,7 @@ function useLocalStorage(itemName, initialValue) {
             }
         },3000);
 
-    },[initialValue, itemName])
+    },[itemName])
 
 
     const saveItem = (newTodos) => {

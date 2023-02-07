@@ -7,9 +7,12 @@ function Provider({children}) {
 
     let todosAll = [];
     const [theme, setTheme] = React.useState(true);
+
     const localStorageItems = localStorage.getItem('TODOS_V1');
     let copyData = JSON.parse(localStorageItems);
+
     const {item, saveItem, setItem, loading, error} = useLocalStorage('TODOS_V1', []);
+
     const [inputSearch, setInputSearch] = useState('');
     const [openModal, setOpenModal] = React.useState(false);
     const amountItemsCompleted = item.filter(item => item.completed === true).length;
@@ -47,9 +50,9 @@ function Provider({children}) {
     const clearData = () => {
         saveItem([])
     }
-
     const filterTodoActive = () => {
         const filterActive = copyData.filter(item => item.completed === false);
+        console.log(filterActive)
         setItem(filterActive);
         setState({
             all: false,
