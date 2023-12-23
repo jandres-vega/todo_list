@@ -15,6 +15,7 @@ const AppUi = () => {
     return (
         <>
             <div className="container-main">
+                <h1>Card</h1>
                 <div className="container-img-header">
                     {
                         theme ? <img src={imgHeaderDark} alt="img-header" />:
